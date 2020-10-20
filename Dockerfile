@@ -1,3 +1,3 @@
 FROM mhmud/nginx:latest
-ADD /var/lib/jenkins/workspace/gitlab-test/tests/TestCase.php /etc/
+COPY /var/lib/jenkins/test_jenk_dock /etc/
 CMD [“echo”,”Image created”] 
